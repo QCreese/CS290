@@ -1,0 +1,156 @@
+/* web_design.css */
+
+/* Resetting default margin and padding */
+body, h1, h2, h3, ul, ol, li, p, table, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #1a1a1a; /* Darker background color */
+    color: #fff; /* Text color */
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+/* Heading styles */
+h1, h2, h3 {
+    color: #fff; /* Heading text color */
+}
+
+/* Styles for elements with specific roles */
+[role="banner"] {
+    /* Banner styles */
+    background-color: #333;
+    color: white;
+}
+
+[role="navigation"] {
+    /* Navigation styles */
+    background-color: #333;
+    color: white;
+}
+
+[role="contentinfo"] {
+    /* Footer (contentinfo) styles */
+    background-color: #333;
+    color: white;
+}
+
+/* Additional styles for line-height */
+h1 {
+    line-height: 1.5; /* Adjust as needed */
+    font-size: 24px; /* Example font size */
+    font-weight: bold; /* Example font weight */
+}
+
+
+
+/* Link styles */
+a {
+    color: #66ccff; /* Link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation menu styles */
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+    border: 2px solid #fff; /* Add border around the navigation menu */
+    border-radius: 5px; /* Optional: Add border radius for rounded corners */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px; /* Add spacing between menu items */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px; /* Add padding to make clickable area larger */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    border: 1px solid #fff; /* Add border around each menu item */
+    border-radius: 5px; /* Optional: Add border radius for rounded corners */
+    font-size: 16px; /* Set font size */
+    font-style: italic; /* Set font style */
+    font-variant: small-caps; /* Set font variant */
+    font-weight: bold; /* Set font weight */
+    font: italic small-caps bold 16px Arial, sans-serif; /* Font shorthand property */
+    margin: 5px; /* Set margin */
+}
+
+nav a:hover {
+    background-color: #555; /* Darker background color on hover */
+}
+
+/* Video styles */
+video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Table styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 3px solid black;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #333; /* Table row background color */
+}
+
+caption {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* Footer link styles */
+footer a {
+    margin: 0 10px; /* Add margin to separate links */
+}
