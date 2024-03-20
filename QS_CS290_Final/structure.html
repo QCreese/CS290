@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Catalog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Product Catalog</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="products">
+            <h2>All Products</h2>
+            <div class="product-list">
+                <!-- Product cards will be dynamically added here -->
+            </div>
+        </section>
+
+        <section class="filter">
+            <h2>Filter Products</h2>
+            <form id="filter-form">
+                <label for="price-range">Price Range:</label>
+                <select id="price-range">
+                    <option value="0-20">$0 - $20</option>
+                    <option value="20-50">$20 - $50</option>
+                    <option value="50+">$50+</option>
+                </select>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Product Catalog. CS 290 Web-Development.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
